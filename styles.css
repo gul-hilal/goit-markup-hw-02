@@ -1,26 +1,75 @@
+:root {
+  --primary-brand: #4d5ae5;
+}
+
 .body {
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 2px;
+  background-color: #fff;
+  display: block;
+  position: relative;
+  color: var(--primary-brand);
 }
 .logo {
-  color: #2e2f42;
-  font-size: 56px;
+  color: #4d5ae5;
+  font-size: 36px;
   font-family: "roboto", sans-serif;
-  font-weight: bold;
   letter-spacing: 2px;
-  line-height: 60px;
+  line-height: 1.1;
+}
+.item:hover {
+  color: #2e2f2e;
 }
 .header1 {
   color: #2e2f42;
-  font-size: 36px;
-  font-weight: bold;
+  font-size: 16px;
   letter-spacing: 2px;
+  margin: 10px;
 }
+
 .header2 {
   color: #434455;
-  font-weight: medium;
-  font-size: 20px;
+  font-size: 12px;
+  letter-spacing: 2px;
 }
 .order-service {
   background-color: #2e2f42;
+  font-size: 12px;
+  line-height: 1.4;
+}
+h1,
+button {
+  color: #fff;
+  font-size: 56px;
+  line-height: 1.1;
+  cursor: pointer;
+}
+button {
+  font-family: Roboto sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  background-color: #4d5ae5;
+}
+.our-team {
+  background-color: #f4f4fd;
+}
+h2 {
+  font-size: 36px;
+  color: #2e2f42;
+  line-height: 1.4;
+}
+p {
+  color: 434455;
+  font-size: 12px;
+  line-height: 1.4;
+}
+.webstudio {
+  background-color: #2e2f42;
 }
 
+p1 {
+  color: #f4f4fd;
+}
