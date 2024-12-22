@@ -1,0 +1,26 @@
+.body {
+  font-family: "Roboto", sans-serif;
+}
+.logo {
+  color: #2e2f42;
+  font-size: 56px;
+  font-family: "roboto", sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 60px;
+}
+.header1 {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.header2 {
+  color: #434455;
+  font-weight: medium;
+  font-size: 20px;
+}
+.order-service {
+  background-color: #2e2f42;
+}
+
