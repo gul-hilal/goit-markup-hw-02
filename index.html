@@ -1,12 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>homework</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><home-work-2></title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,700;1,700&display=swap");
+    </style>
   </head>
+
+  <!-- Header -->
   <body>
-    <!-- Header Alanı Baslangıc-->
     <header>
-      <a href="https://gul-hilal.github.io/goit-markup-hw-01">WEBSTUDIO</a>
+      <a class="logo" href="https://gul-hilal.github.io/goit-markup-hw-01"
+        >WEBSTUDIO</a
+      >
+
       <nav>
         <ul>
           <li>
@@ -23,79 +38,186 @@
       <address>
         <ul>
           <li>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li>
-        <a href="tel:+110001111111">+11(000)111-11-11</a>
+            <a href="tel:+110001111111">+11(000)111-11-11</a>
           </li>
         </ul>
       </address>
     </header>
-    <!-- Header Alanı Bitti -->
+    <!-- Header soon -->
 
-    <!-- Sayfanın Main Alanı Baslangıc-->
+    <!--  Main -->
     <main>
+      <div class="order-service">
+        <h1 class="h1">Effective Solution for Your Business</h1>
+        <section>
+          <button class="button-text-color" type="button">Order Service</button>
+        </section>
+      </div>
       <section>
-        <h1>Effective Solution for Your Business</h1>
-        <button type="button">Order Service</button>
-      </section>
-      <section>
-        <h2>Strategy</h2>
-        <p>
-          Our goal is to identify the business problem to walk away with the
-          perfect and creative solution.
-        </p>
-        <h2>Punctuality</h2>
-        <p>
-          Bring the key message to the brand's audience for the best price
-          within the shortest possible time.
-        </p>
-        <h2>Diligence</h2>
-        <p>
-          Research and confirm brands that present the strongest digital growth
-          opportunities and minimize risk.
-        </p>
-        <h2>Technologies</h2>
-        <p>
-          Design practice focused on digital experiences. We bring forth a deep
-          passion for problem-solving.
-        </p>
+        <ul>
+          <li>
+            <h3 class="little-title-p">Strategy</h3>
+            <p>
+              Our goal is to identify the business problem to walk away with the
+              perfect and creative solution.
+            </p>
+          </li>
+          <li>
+            <h3 class="little-title-p">Punctuality</h3>
+            <p>
+              Bring the key message to the brand's audience for the best price
+              within the shortest possible time.
+            </p>
+          </li>
+          <li>
+            <h3 class="little-title-p">Diligence</h3>
+            <p>
+              Research and confirm brands that present the strongest digital
+              growth opportunities and minimize risk.
+            </p>
+          </li>
+          <li>
+            <h3 class="little-title-p">Technologies</h3>
+            <p>
+              Design practice focused on digital experiences. We bring forth a
+              deep passion for problem-solving.
+            </p>
+          </li>
+        </ul>
       </section>
     </main>
-    <section>
-      <h2>Our Team</h2>
-      <p>Mark Guerrero</p>
-      <p>Product Designer</p>
-      <img
-        src="images/img.jpg-1.jpg"
-        alt="Mark Guerrero-Product Designer"
-        width="264"
-      />
-      <h2>Tom Ford</h2>
-      <p>Frontend Developer</p>
-      <img
-        src="images/img.jpg-2.jpg"
-        alt="Tom Ford-Frontend Developer"
-        width="264"
-      />
-      <h2>Camila Garcia</h2>
-      <p>Marketing</p>
-      <img src="images/img.jpg-3.jpg" alt="Camila Garcia-Marketing" width="264" />
-      <h2>Daniel Wilson</h2>
-      <p>UI Designer</p>
-      <img src="images/img.jpg-4.jpg" alt="Daniel Wilson-UI Designer" width="264" />
-    </section>
-    <!--Sayfanın Main Alanı Bitti-->
 
-    <!--Sayfanın Footer Alanı Baslangıc-->
+    <section class="our-team">
+      <ul>
+        <li>
+          <h2 class="title">Our Team</h2>
+        </li>
+        <li>
+          <h3 class="little-title-p">Mark Guerrero</h3>
+          <p>Product Designer</p>
+          <img
+            src="images/img.jpg-1.jpg"
+            alt="Mark Guerrero-Product Designer"
+            width="264"
+          />
+        </li>
+        <li>
+          <h3 class="little-title-p">Tom Ford</h3>
+          <p>Frontend Developer</p>
+          <img
+            src="images/img.jpg-2.jpg"
+            alt="Tom Ford-Frontend Developer"
+            width="264"
+          />
+        </li>
+        <li>
+          <h3 class="little-title-p">Camila Garcia</h3>
+          <p>Marketing</p>
+          <img
+            src="images/img.jpg-3.jpg"
+            alt="Camila Garcia-Marketing"
+            width="264"
+          />
+        </li>
+        <li>
+          <h3 class="little-title-p">Daniel Wilson</h3>
+          <p>UI Designer</p>
+          <img
+            src="images/img.jpg-4.jpg"
+            alt="Daniel Wilson-UI Designer"
+            width="264"
+          />
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <section class="our-portfolio">
+        <ul>
+          <li>
+            <h2 class="title">Our Portfolio</h2>
+          </li>
+
+          <li>
+            <h3 class="little-title-p">Banking App</h3>
+            <p>App</p>
+            <img
+              src="images/img-1.jpg"
+              alt="Banking App"
+              width="360"
+              height="300"
+            />
+          </li>
+          <li>
+            <h3 class="little-title-p">Cashless Payment</h3>
+            <p>Marketing</p>
+            <img
+              src="images/img-2.jpg"
+              alt="Marketing"
+              width="360"
+              height="300"
+            />
+          </li>
+          <li>
+            <h3 class="little-title-p">Meditation App</h3>
+            <p>App</p>
+            <img
+              src="images/img-3.jpg"
+              alt="Meditation App"
+              width="360"
+              height="300"
+            />
+          </li>
+        </ul>
+      </section>
+      <ul>
+        <li>
+          <h3 class="little-title-p">Taxi Service</h3>
+          <p>Marketing</p>
+          <img
+            src="images/img-4.jpg"
+            alt="Taxi Service"
+            width="360"
+            height="300"
+          />
+        </li>
+        <li>
+          <h3 class="little-title-p">Screen Illustrations</h3>
+          <p>Desing</p>
+          <img
+            src="images/img-5.jpg"
+            alt="Screen Illustrations"
+            width="360"
+            height="300"
+          />
+        </li>
+        <li>
+          <h3 class="little-title-p">Online Courses</h3>
+          <p>Marketing</p>
+          <img
+            src="images/img-6.jpg"
+            alt="Online Courses"
+            width="360"
+            height="300"
+          />
+        </li>
+      </ul>
+    </section>
+    <!--Main soon-->
+
+    <!-- footer -->
     <footer>
-      <section>
-        <h3>WEBSTUDIO</h3>
-        <p>
+      <div class="footer">
+        <h3 class="little-title-footer">WEBSTUDIO</h3>
+        <p class="footer-p">
           Increase the flow of customers and sales for your business with
           digital marketing&growth solutions.
         </p>
-      </section>
+      </div>
     </footer>
+    <!-- footer soon-->
   </body>
 </html>
