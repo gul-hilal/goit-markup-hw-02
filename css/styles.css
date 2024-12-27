@@ -14,19 +14,19 @@
 }
 
 .body {
+
   font-family: "Roboto", sans-serif;
   font-family: "Raleway";
+  color: var(--slate);
   font-size: 16px;
-  color: #434455;
-  background-color: #ffffff;
-
   letter-spacing: 2%;
 }
 
 .logo {
   color: var(--navy-blue);
   font-size: 18px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway";
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.03em;
   line-height: 1.17;
@@ -101,3 +101,5 @@ h2 {
   color: var(--cloud);
   letter-spacing: 0.02em;
 }
+
+
