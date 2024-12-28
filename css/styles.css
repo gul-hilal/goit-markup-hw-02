@@ -1,4 +1,5 @@
 :root {
+<<<<<<< HEAD
   --ırıs: #4d5ae5;
   --navy-blue: #2e2f42;
   --green: #31d0aa;
@@ -103,3 +104,105 @@ h2 {
 }
 
 
+=======
+    --ırıs: #4d5ae5;
+    --navy-blue: #2e2f42;
+    --green: #31d0aa;
+    --slate: #434455;
+    --lıght-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --navy-blue-modal: #2e2f42;
+    --grey: #2e2f42;
+    --white: #ffffff;
+    --daıry: #fcfcfc;
+    --ocean: #404bbf;
+  }
+  
+  .body {
+  
+    font-family: "Roboto", sans-serif;
+    font-family: "Raleway";
+    color: var(--slate);
+    font-size: 16px;
+    letter-spacing: 2%;
+  }
+  
+  .logo {
+    color: var(--navy-blue);
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    cursor: pointer;
+  }
+  
+  .a {
+    color: var(--navy-blue);
+    font-family: "Roboto";
+  
+    font-size: 16px;
+    letter-spacing: 2%;
+  }
+  
+  .order-service {
+    background-color: var(--navy-blue);
+  }
+  .button-text-color:hover:focus {
+    background-color: var(--green);
+  
+    font-size: 16px;
+  
+    letter-spacing: 0.04em;
+  
+    font-family: "Roboto", sans-serif;
+    background-color: var(--ırıs);
+    cursor: pointer;
+  }
+  h1 {
+    color: var(--white);
+    font-size: 56px;
+  
+    text-align: center;
+    letter-spacing: 0.02em;
+  }
+  .our-team {
+    background-color: var(--cloud);
+  }
+ 
+  .parag {
+    font-family: "Roboto";
+    color: var(--slate);
+    font-size: 16px;
+    letter-spacing: 0.02em;
+  }
+  h2 {
+    font-family: "Roboto";
+    font-size: 36px;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--navy-blue);
+    letter-spacing: 0.02em;
+  }
+  .footer {
+    background-color: var(--navy-blue);
+    font-family: "Raleway", sans-serif;
+  }
+  .h3 {
+    color: var(--cloud);
+    font-family: "Raleway";
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--ırıs);
+  }
+  .footer-p {
+    color: var(--cloud);
+    letter-spacing: 0.02em;
+    font-size: 12px;
+  }
+  
+  
+>>>>>>> b9866ff (homework-2)
