@@ -1,235 +1,127 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><homework-2></title>
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,700;1,700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <!-- Header -->
-  <body>
-    <header>
-    
-      <nav>
-        <a class="logo-hea" href="/"
-          >WEB
-          <span class="stu-dio">Studio</span></a
-        >
-        <ul class="header-ul">
-          <li>
-            <a href="/" class="header-link">Studio</a>
-          </li>
-          <li>
-            <a href="/" class="header-link">Portfolio</a>
-          </li>
-          <li>
-            <a href="/" class="header-link">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-     
-      <address>
-        <ul class="adress-link">
-          <li>
-            <a href="mailto:info@devstudio.com" class="adress-mail">info@devstudio.com</a>
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="adress-num">+11(000)111-11-11</a>
-          </li>
-        </ul>
-      
-      </address>
-   
-   
-    
-    </header>
-    <!-- Header soon -->
+.body, html {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  color: #434455 ;
+  font-size: 16px;
+  letter-spacing: 2%;
+}
 
-    <!--  Main -->
-    <main>
-      <section class="order-service" >
-      
-        <h1 class="main-text">Effective Solution for Your Business</h1>
-        
-          <button type="button" class="button-text-color" >Order Service</button>
-      
-        </section>
-      
-      <section class="middle-part">
-      
-        <ul>
-          <li>
-            <h3 class="strategy">Strategy</h3>
-            <p class="parag">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3 class="punctuality">Punctuality</h3>
-            <p class="parag">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3 class="diligence">Diligence</h3>
-            <p class="parag">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3 class="technologies">Technologies</h3>
-            <p class="parag">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
-     
-      </section>
-  
+.logo-hea {
+  font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  line-height: 1.17;
+  cursor: pointer;
+}
+.stu-dio {
+  color: #2e2f42;
+}
+.header-link {
+  font-size: 16px;
+}
+.adress-mail,
+.adress-num {
+  font-size: 12px;
+}
+.header-link,
+.adress-mail,
+.adress-num {
+  font-family: "Roboto";
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-link:hover,
+.header-link:focus {
+  color: #404bbf;
+}
+.adress-mail:hover,
+.adress-mail {
+  color: #404bbf;
+}
+.adress-num:hover,
+.adress-num:focus {
+  color: #404bbf;
+}
 
-    <section class="our-team">
-      <h2 class="title">Our Team</h2>
-    
-      <ul>
-        <li>
-          <h3 class="product-designer">Mark Guerrero</h3>
-          <p class="parag">Product Designer</p>
-          <img
-            src="images/img.jpg-1.jpg"
-            alt="Mark Guerrero-Product Designer"
-            width="264"
-          />
-        </li>
-        <li>
-          <h3 class="frondent-developer">Tom Ford</h3>
-          <p class="parag">Frontend Developer</p>
-          <img
-            src="images/img.jpg-2.jpg"
-            alt="Tom Ford-Frontend Developer"
-            width="264"
-          />
-        </li>
-        <li>
-          <h3 class="camila-garcia">Camila Garcia</h3>
-          <p class="parag">Marketing</p>
-          <img
-            src="images/img.jpg-3.jpg"
-            alt="Camila Garcia-Marketing"
-            width="264"
-          />
-        </li>
-        <li>
-          <h3 class="daniel-wilson">Daniel Wilson</h3>
-          <p class="parag">UI Designer</p>
-          <img
-            src="images/img.jpg-4.jpg"
-            alt="Daniel Wilson-UI Designer"
-            width="264"
-          />
-        </li>
-      </ul>
-      
-    </section>
+h1 {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02;
+  color: #ffffff;
+}
 
-    
-      <section class="our-portfolio">
-        <h2 class="our-portfolio">Our Portfolio</h2>
-        
-        <ul>
-          <li>
-            <h3 class="banking-app">Banking App</h3>
-            <p class="parag">App</p>
-            <img
-              src="images/img-1.jpg"
-              alt="Banking App"
-              width="360"
-              height="300"
-            />
-          </li>
-          <li>
-            <h3 class="market-ing">Cashless Payment</h3>
-            <p class="parag">Marketing</p>
-            <img
-              src="images/img-2.jpg"
-              alt="Marketing"
-              width="360"
-              height="300"
-            />
-          </li>
-          <li>
-            <h3 class="app">Meditation App</h3>
-            <p class="parag">App</p>
-            <img
-              src="images/img-3.jpg"
-              alt="Meditation App"
-              width="360"
-              height="300"
-            />
-          </li>
-      
-        <li>
-          <h3 class="marketing">Taxi Service</h3>
-          <p class="parag">Marketing</p>
-          <img
-            src="images/img-4.jpg"
-            alt="Taxi Service"
-            width="360"
-            height="300"
-          />
-        </li>
-        <li>
-          <h3 class="design">Screen Illustrations</h3>
-          <p class="parag">Desing</p>
-          <img
-            src="images/img-5.jpg"
-            alt="Screen Illustrations"
-            width="360"
-            height="300"
-          />
-        </li>
-        <li>
-          <h3 class="online-courses">Online Courses</h3>
-          <p class="parag">Marketing</p>
-          <img
-            src="images/img-6.jpg"
-            alt="Online Courses"
-            width="360"
-            height="300"
-          />
-        </li>
-      </ul>
-    </section>
-    </main>
-    <!--Main soon-->
+.order-service {
+  background-color: #2e2f42;
+}
+.button-text-color:hover .button-text-color:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+button {
+  background-color: #4d5ae5;
+  font-family: "Roboto" sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
 
-    <!-- footer -->
-    <footer class="footer">
-     
-      <a class="logo-hea" href="/"
-      >Web
-      <span class="stu-dio">Studio</span></a
-    >
-        <p class="footer-p">
-          Increase the flow of customers and sales for your business with
-          digital marketing&growth solutions.
-        </p>
-      
-    </footer>
-    <!-- footer soon-->
-  </body>
-</html>
+.our-team {
+  background-color: #f4f4fd;
+}
+
+h3 {
+  font-family: "Roboto";
+  color: #2e2f42;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  line-height: 1.2;
+}
+p {
+  font-family: "Roboto";
+  color: #434455;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+h2 {
+  font-family: "Roboto";
+  font-size: 36px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+  line-height: 1.11;
+}
+.footer {
+  font-family: "Raleway" sans-serif;
+  color: #4d5ae5;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  line-height: 1.17;
+  cursor: pointer;
+  background-color: #2e2f42;
+}
+
+span {
+  color: #2e2f42;
+}
+.footer-p {
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+  background-color: #2e2f42;
+  font-size: 12px;
+  line-height: 1.5;
+}
