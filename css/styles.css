@@ -1,5 +1,4 @@
 :root {
-<<<<<<< HEAD
   --ırıs: #4d5ae5;
   --navy-blue: #2e2f42;
   --green: #31d0aa;
@@ -14,195 +13,139 @@
   --ocean: #404bbf;
 }
 
-.body {
-
-  font-family: "Roboto", sans-serif;
-  font-family: "Raleway";
+body,
+html {
+  background-color: #ffffff;
+  font-family: "Roboto" sans-serif;
   color: var(--slate);
   font-size: 16px;
   letter-spacing: 2%;
 }
 
-.logo {
-  color: var(--navy-blue);
+
+.logo-hea {
+  font-family: "raleway" sans-serif;
+  color: var(--ırıs);
   font-size: 18px;
-  font-family: "Raleway";
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
+font-weight: 700;
+letter-spacing: 0.03em;
+text-transform: uppercase;
   line-height: 1.17;
   cursor: pointer;
 }
-
-.a {
+.stu-dio {
   color: var(--navy-blue);
-  font-family: "Roboto";
-
+}
+.header-link {
   font-size: 16px;
-  letter-spacing: 2%;
+}
+.adress-mail, .adress-num {
+  font-size: 12px;
+}
+.header-link, .adress-mail, .adress-num {
+  font-family: "Roboto";
+  color: var(--grey);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--ocean);
+  
+}
+.adress-mail:hover,
+.adress-mail {
+  color: var(--ocean);
+}
+.adress-num:hover,
+.adress-num:focus {
+  color: var(--ocean);
+}
+
+
+h1 {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02;
+  color: var(--white);
+
+
 }
 
 .order-service {
   background-color: var(--navy-blue);
 }
-.button-text-color:hover:focus {
-  background-color: var(--green);
-
-  font-size: 16px;
-
-  letter-spacing: 0.04em;
-
-  font-family: "Roboto", sans-serif;
-  background-color: var(--ırıs);
+.button-text-color:hover
+.button-text-color:focus {
+  background-color: var(--ocean);
   cursor: pointer;
 }
-h1 {
+button {
+  background-color: var(--ırıs);
+  font-family: "Roboto" sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--white);
-  font-size: 56px;
-
-  text-align: center;
-  letter-spacing: 0.02em;
 }
+
+
 .our-team {
   background-color: var(--cloud);
 }
 .little-title-p,
 h3 {
   font-family: "Roboto";
-  color: var(--navy-blue);
+  color: var(--grey);
   font-size: 20px;
   letter-spacing: 0.02em;
+  font-weight: 500;
+  line-height: 1.2;
+
 }
 p {
   font-family: "Roboto";
   color: var(--slate);
   font-size: 16px;
   letter-spacing: 0.02em;
+  line-height: 1.5;
+  
 }
 h2 {
   font-family: "Roboto";
   font-size: 36px;
   text-align: center;
   text-transform: capitalize;
-  color: var(--navy-blue);
+  color: var(--navy-blue-modal);
   letter-spacing: 0.02em;
+  line-height: 1.11;
+
 }
 .footer {
-  background-color: var(--navy-blue);
-}
-.little-title-footer {
-  color: var(--cloud);
-  font-family: "Raleway";
-  font-size: 18px;
+  font-family: "raleway" sans-serif;
+    color: var(--ırıs);
+    font-size: 18px;
+  font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--ırıs);
+    line-height: 1.17;
+    cursor: pointer;
+  
+}
+
+
+.stu-dio {
+
+  color: var(--navy-blue);
 }
 .footer-p {
   color: var(--cloud);
   letter-spacing: 0.02em;
+  background-color: var(--navy-blue-modal);
+  font-size: 12px;
+  line-height: 1.5;
 }
-
-
-=======
-    --ırıs: #4d5ae5;
-    --navy-blue: #2e2f42;
-    --green: #31d0aa;
-    --slate: #434455;
-    --lıght-slate: #8e8f99;
-    --cornflower: #e7e9fc;
-    --cloud: #f4f4fd;
-    --navy-blue-modal: #2e2f42;
-    --grey: #2e2f42;
-    --white: #ffffff;
-    --daıry: #fcfcfc;
-    --ocean: #404bbf;
-  }
-  
-  .body {
-  
-    font-family: "Roboto", sans-serif;
-    font-family: "Raleway";
-    color: var(--slate);
-    font-size: 16px;
-    letter-spacing: 2%;
-  }
-  
-  .logo {
-    color: var(--navy-blue);
-    font-size: 18px;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    line-height: 1.17;
-    cursor: pointer;
-  }
-  
-  .a {
-    color: var(--navy-blue);
-    font-family: "Roboto";
-  
-    font-size: 16px;
-    letter-spacing: 2%;
-  }
-  
-  .order-service {
-    background-color: var(--navy-blue);
-  }
-  .button-text-color:hover:focus {
-    background-color: var(--green);
-  
-    font-size: 16px;
-  
-    letter-spacing: 0.04em;
-  
-    font-family: "Roboto", sans-serif;
-    background-color: var(--ırıs);
-    cursor: pointer;
-  }
-  h1 {
-    color: var(--white);
-    font-size: 56px;
-  
-    text-align: center;
-    letter-spacing: 0.02em;
-  }
-  .our-team {
-    background-color: var(--cloud);
-  }
- 
-  .parag {
-    font-family: "Roboto";
-    color: var(--slate);
-    font-size: 16px;
-    letter-spacing: 0.02em;
-  }
-  h2 {
-    font-family: "Roboto";
-    font-size: 36px;
-    text-align: center;
-    text-transform: capitalize;
-    color: var(--navy-blue);
-    letter-spacing: 0.02em;
-  }
-  .footer {
-    background-color: var(--navy-blue);
-    font-family: "Raleway", sans-serif;
-  }
-  .h3 {
-    color: var(--cloud);
-    font-family: "Raleway";
-    font-size: 18px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--ırıs);
-  }
-  .footer-p {
-    color: var(--cloud);
-    letter-spacing: 0.02em;
-    font-size: 12px;
-  }
-  
-  
->>>>>>> b9866ff (homework-2)
