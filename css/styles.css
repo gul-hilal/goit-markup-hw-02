@@ -48,10 +48,6 @@ body {
 .header-link:focus {
   color: #404bbf;
 }
-.adress:hover,
-.adress {
-  color: #404bbf;
-}
 
 .adress:hover,
 .adress:focus {
