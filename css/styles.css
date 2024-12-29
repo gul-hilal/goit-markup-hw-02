@@ -25,19 +25,20 @@ body {
 .header-link {
   font-size: 16px;
 }
-.adress,
 .adress {
-  font-size: 12px;
+  font-size: 16px;
+  color: #434455;
+
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .link-list {
   font-style: normal;
 }
 
-.header-link,
-.adress,
-.adress {
+.header-link {
   font-family: "Roboto";
-  color: #434455;
+  color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
