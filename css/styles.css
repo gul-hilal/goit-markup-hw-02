@@ -19,7 +19,7 @@ body {
   cursor: pointer;
 }
 
-.stu-dio {
+.stu-dio-1 {
   color: #2e2f42;
 }
 .header-link {
@@ -84,6 +84,9 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+}
+.our-team {
+  background-color: #f4f4fd;
 }
 
 .team-list {
